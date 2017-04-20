@@ -1,0 +1,126 @@
+/************************
+GENERAL
+************************/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 0%;
+	/*background: orange;*/
+}
+
+img {
+	max-width: 100%;
+	
+}
+
+
+
+/************************
+HEADING
+************************/
+
+header {
+	float: left;
+	text-align: center;
+	font-family: 'oswald';
+	width: 100%;
+	padding-top: 4%;
+}
+
+h1, h2 {
+	font-weight: lighter;
+}
+
+h1 {
+	font-size: 4.5em;
+	margin: 0;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+h2 {
+	font-size: 1em;
+	font-family: 'Oxygen Mono', monospace;
+	color: #fff;
+	margin: 1% 0 25px;
+}
+
+
+
+/************************
+MAIN PAGE
+************************/
+
+#introduction {
+	/*padding: 5%;*/
+}
+
+#quote {
+
+}
+
+#project-list {
+	list-style: none;
+}
+
+#project-list li {
+	background-color: #f5f5f5;
+	padding: 0 2% 2%;
+	margin: 4% 0;
+
+}
+
+#spacex-logo {
+	
+	height: auto;
+}
+
+#tesla-logo {
+	margin: -10% 0;
+	
+}
+
+#openai-logo {
+
+}
+
+/************************
+FOOTER
+************************/
+
+footer {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	margin: 0.85% auto;
+}
+
+
+
+
+
+/************************
+COLORS
+************************/
+
+/* site body */
+body {
+	background: #fff;
+}
+
+
+/* title heading */
+header {
+	background: #181c1f;
+	color: #fff;
+}
+
+/* footer */
+footer {
+	background-color: #222;
+	color: #fff;
+}
+
