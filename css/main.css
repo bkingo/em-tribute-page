@@ -23,7 +23,6 @@ HEADING
 header {
 	float: left;
 	text-align: center;
-	font-family: 'oswald';
 	width: 100%;
 	padding-top: 4%;
 }
@@ -52,37 +51,52 @@ MAIN PAGE
 ************************/
 
 #introduction {
-	/*padding: 5%;*/
+	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 #quote {
+	font-weight: normal;
+	font-style: italic;
 
 }
 
-#project-list {
+.project-list {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-#project-list li {
+.project-list li {
 	background-color: #f5f5f5;
-	padding: 0 2% 2%;
-	margin: 4% 0;
-
+	padding: 0 2% 4%;
+	margin: 0% 0;
+	text-align: center;
 }
 
 #spacex-logo {
-	
-	height: auto;
-}
+	margin: 0;
+	padding: 0;
+
+}	
 
 #tesla-logo {
 	margin: -10% 0;
-	
+	/*margin-bottom: -5%*/
 }
 
 #openai-logo {
+	width: 65%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2%
 
 }
+
+/*.clear-text {
+	clear: both;
+}*/
 
 /************************
 FOOTER
@@ -123,4 +137,23 @@ footer {
 	background-color: #222;
 	color: #fff;
 }
+
+.project-list li.spacex {
+	background-color: #EDF1F1;
+	padding-top: 2%;
+}
+
+.project-list li.tesla {
+	background-color: #F4F6F6;
+}
+
+.project-list li.openai {
+	background-color: #F8FBFB;
+	padding-top: 10%;
+}
+
+/*.project-lsit li.openai p {
+	clear: both;
+}
+*/
 
